@@ -12,5 +12,14 @@ public abstract class Floor {
     
     protected String floorName;
     public abstract void enter();
+
+    // Story of the tower
+    public void introStory() {
+        System.out.println("Intro of the floor");
+    }
+    
+    public void outroStory() {
+        System.out.println("Outro of the floor");
+    }
     
 }
